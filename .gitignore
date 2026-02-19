@@ -137,3 +137,5 @@ historial.csv
 Reporte_*.pdf
 Reporte_*.jpg
 reports/
+
+.vscode/
