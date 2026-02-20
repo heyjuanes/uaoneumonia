@@ -139,3 +139,11 @@ Reporte_*.jpg
 reports/
 
 .vscode/
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+uploads/
+heatmaps/
