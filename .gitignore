@@ -129,7 +129,6 @@ dmypy.json
 .pyre/
 
 # .h5 model files
-models/
 *.h5
 
 # Outputs
