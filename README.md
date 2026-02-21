@@ -89,10 +89,13 @@ Descripcion de Modulos
 2. *Load_model.py:* Carga el modelo CNN entrenado desde el archivo WilhemNet86.h5.
 
 3. *grad_cam.py:* Genera un mapa de calor utilizando Grad-CAM para visualizar las regiones importantes en la clasificación.
+   
 
-4. *Main.py:* Coordina todo el flujo:
-   -Recibe la imagen
-   -Ejecuta preprocesamiento
-   -Obtiene predicción
-   -Genera Grad-CAM
-   -Retorna resultados a la interfaz
+5. *Main.py:* Coordina todo el flujo:
+
+
+   1.Recibe la imagen
+   2. Ejecuta preprocesamiento
+   3. Obtiene predicción
+   4.Genera Grad-CAM
+   5.Retorna resultados a la interfaz
