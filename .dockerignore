@@ -1,0 +1,11 @@
+.venv
+__pycache__
+*.pyc
+.git
+.gitignore
+models
+*.h5
+reports
+Reporte_*.jpg
+Reporte_*.pdf
+historial.csv
