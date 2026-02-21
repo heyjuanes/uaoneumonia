@@ -72,25 +72,26 @@ Uso de aplicativo
 
 <img width="896" height="594" alt="image" src="https://github.com/user-attachments/assets/f0514756-eb0e-43b7-a1d8-b75d440f1c77" />
 
-
+Fuente_Elabolacion propia
 
 --------
 
 Descripcion de Modulos
-1. Read_img.py: Lee la imagen en formato DICOM utilizando pydicom, extrae el pixel_array y lo prepara para el preprocesamiento.
+1. *Read_img.py:*Lee la imagen en formato DICOM utilizando pydicom, extrae el pixel_array y lo prepara para el preprocesamiento.
 
- preprocess_img.py Realiza:
- 1. Redimensionamiento (512x512)
- 2. Conversión a escala de grises
- 3. Ecualización de histograma (CLAHE)
- 4. Normalización (0–1)
- 5. Conversión a tensor (batch)
+   Preprocess_img.py Realiza:
+   1. Redimensionamiento (512x512)
+   2. Conversión a escala de grises
+   3. Ecualización de histograma (CLAHE)
+   4. Normalización (0–1)
+   5. Conversión a tensor (batch)
 
-2. Load_model.py: Carga el modelo CNN entrenado desde el archivo WilhemNet86.h5.
+2. *Load_model.py:* Carga el modelo CNN entrenado desde el archivo WilhemNet86.h5.
 
-3. grad_cam.py: Genera un mapa de calor utilizando Grad-CAM para visualizar las regiones importantes en la clasificación.
+3. *grad_cam.py:* Genera un mapa de calor utilizando Grad-CAM para visualizar las regiones importantes en la clasificación.
 
-4. Main.py: Coordina todo el flujo:
+4. *Main.py:* Coordina todo el flujo:
+   
   1. Recibe la imagen
   2. Ejecuta preprocesamiento
   3. Obtiene predicción
