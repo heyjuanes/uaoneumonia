@@ -91,9 +91,8 @@ Descripcion de Modulos
 3. *grad_cam.py:* Genera un mapa de calor utilizando Grad-CAM para visualizar las regiones importantes en la clasificación.
 
 4. *Main.py:* Coordina todo el flujo:
-   
-  1. Recibe la imagen
-  2. Ejecuta preprocesamiento
-  3. Obtiene predicción
-  4. Genera Grad-CAM
-  5. Retorna resultados a la interfaz
+   -Recibe la imagen
+   -Ejecuta preprocesamiento
+   -Obtiene predicción
+   -Genera Grad-CAM
+   -Retorna resultados a la interfaz
