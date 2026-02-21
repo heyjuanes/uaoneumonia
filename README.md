@@ -99,3 +99,7 @@ Descripcion de Modulos
    3. Obtiene predicción
    4.Genera Grad-CAM
    5.Retorna resultados a la interfaz
+
+
+<img width="613" height="880" alt="image" src="https://github.com/user-attachments/assets/3d6bc2bd-c455-4e97-95e7-c5b739406eff" />
+
